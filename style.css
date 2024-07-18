@@ -97,7 +97,9 @@ main{
 .item{
     border: 1px solid red;
     box-sizing: border-box;
-    flex: 0 0 40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 200px;
     height: 200px;
     background-color: white;
     display: inline-block;
