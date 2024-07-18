@@ -12,6 +12,7 @@
 header{
     position: relative;
     padding: 10px;
+    padding-bottom: 0;
     font-size: 25px;
     margin: auto;
     text-align: center;
@@ -19,7 +20,7 @@ header{
     border: 1px solid black;
 }
 #nome-site{
-    margin-top: 13px;
+    margin-top: 20px;
 }
 h1{
     display: inline-block;   
