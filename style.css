@@ -10,6 +10,7 @@
     font-style: normal;
 }
 header{
+    background-color: #e0e0e0;
     position: relative;
     padding: 10px;
     padding-bottom: 0;
@@ -17,7 +18,6 @@ header{
     margin: auto;
     text-align: center;
     max-width: 600px;
-    border: 1px solid black;
 }
 #nome-site{
     margin-top: 20px;
@@ -37,6 +37,10 @@ h1{
     width: 30px;
     height: 22px;
     cursor: pointer;
+    transition: transform ease 0.2s;
+}
+.menu-button:hover{
+    transform: scale(1.1);
 }
 .bar {
     display: block;
@@ -55,7 +59,46 @@ h1{
 }
 #carrinho{
     cursor: pointer;
+    transition: transform ease 0.2s;
+}
+#carrinho:hover{
+    transform: scale(1.1);
 }
 #pesquisar{
     cursor: pointer;
+    transition: transform ease 0.2s;
+}
+#pesquisar:hover{
+    transform: scale(1.1);
+}
+main{
+    margin: auto;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #e0e0e0;
+}
+
+#destaque{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: #424242;
+}
+.conteiner-itens{
+    display: flex;
+    max-width: 580px;
+    overflow-x: scroll;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #000000;
+    gap: 5px; 
+
+}
+.item{
+    border: 1px solid red;
+    box-sizing: border-box;
+    flex: 0 0 40%;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
 }
